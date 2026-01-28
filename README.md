@@ -9,12 +9,7 @@ All concepts required for these tasks have been covered in the lectures and exam
 
 Consider the system of equations
 
-\[
-\begin{cases}
-2x^2 + 3y^2 = r \\
-y = 2x + 1
-\end{cases}
-\]
+\( 2x^2 + 3y^2 = r \) and \( y = 2x + 1 \)
 
 where \( r \) is a real parameter
 
