@@ -1,10 +1,55 @@
 # Introduction to Programming
-## Winter Semester 2022/23 -- Assignment 1
+## Winter Semester 2025/26 — Assignment 10
 
-1. (From GTG, R-1.1.) Write a short Python function, `is_multiple(n,m)`, that takes two integer values and returns `True` if $n$ is a multiple of $m$, i.e., if $n=mi$ for some integer $i$, and `False` otherwise.
+All concepts required for these tasks have been covered in the lectures and examples.
 
-2. (From GTG, R-1.2.)  Write a short Python function, `is_even(k)`, that takes an integer value and returns `True` if $k$ is even, and `False` otherwise. However, your function cannot use the multiplication, modulo, or division operators.
+---
 
-3. Write a function `sum_of_first_integers(n)`, using a `for` loop, to compute the sum of the first $n$ positive integers.
+##Problem 1
 
-4. A number is a palindrome if the $i$-th decimal digit from the front coincides  with the $i$-th decimal digit from the back.  E.g., 18781 is a palindrome, whereas 84736 is not.  Write a function `is_palindrome(n)` that returns `True` if $n$ is a palindrome, and `False` otherwise.
+Consider the system of equations
+
+\[
+\begin{cases}
+2x^2 + 3y^2 = r \\
+y = 2x + 1
+\end{cases}
+\]
+
+where \( r \) is a real parameter
+
+###your task;
+
+Write your code  using **SymPy** that:
+
+-defines the symbolic variables `x`, `y`, and `r`,
+- symbolically solve the system for `x` and `y`,
+- stores **all solutions** in a list named `sol`,
+- where each element of `sol` is a dictionary mapping
+  `{x: ..., y: ...}` in terms of the parameter `r`.
+
+Your solution must be **fully symbolic** and must not substitute a numerical value for `r` in this problem.
+
+---
+
+##Problem 2
+
+For the parameter value
+
+\[
+r = 10
+\]
+
+perform the following tasks;
+
+- plot the ellipse and the line defined in **Problem 1** in the same coordinate system,
+- plot the intersection points obtained in **Problem 1** as clearly visible markers,
+- label both coordinate axes,
+- choose a sensible plotting range,
+- save the figure as a pdf file named **`Problem2.pdf`**
+
+This problem will be **graded manually** based on the correctness and clarity of the plot.
+
+Before committing your submission, make sure to add the pdf file to your repository using;
+
+git add Problem2.pdf
